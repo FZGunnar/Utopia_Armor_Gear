@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{9B23D7FBAC2E2F80}Utopia_Armor_Gear/GUI/imagesets/HeadPhones.paa"
+ Author "ars"
+ ChangeDate -345755310
+ Configurations {
+  PAAResourceClass PC {
+   SourceFile "HeadPhones.paa"
+  }
+  PAAResourceClass XBOX_ONE : PC {
+  }
+  PAAResourceClass PS4 : PC {
+  }
+  PAAResourceClass LINUX : PC {
+  }
+ }
+}

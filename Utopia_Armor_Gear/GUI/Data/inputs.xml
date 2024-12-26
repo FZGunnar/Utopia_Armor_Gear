@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<modded_inputs>
+    <inputs>
+        <actions>
+			<input name="UAVolumeUp" loc="VolumeUp" />
+			<input name="UAVolumeDown" loc="VolumeDown" />
+			<input name="UAOnOffHeadphones" loc="OnOffHeanphones" />
+        </actions>
+        <sorting name="Legacy" loc="Legacy">
+			<input name="UAVolumeUp"/>
+			<input name="UAVolumeDown"/>
+			<input name="UAOnOffHeadphones"/>
+        </sorting>
+    </inputs>
+    <preset>
+		<input name="UAVolumeUp">
+            <btn name="kAdd"/>
+        </input>
+		<input name="UAVolumeDown">
+            <btn name="kSubstract"/>
+        </input>
+		<input name="UAOnOffHeadphones">
+            <btn name="kNumpad0" />
+        </input>	
+    </preset>
+</modded_inputs>
